@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="portfolioresponsive.css">
+    <script src="https://kit.fontawesome.com/9af6636853.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="NAME.jpg" style="height: 17vh;
+                width: 42vw;" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header"><b>Home</b></a></li>
+                    <li><a href="#about"><b>About</b></a></li>
+                    <li><a href="#services"><b>Services</b></a></li>
+                    <li><a href="#portfolio"><b>Portfolio</b></a></li>
+                    <li><a href="#contact"><b>Contact</b></a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Knock Knock</p>
+                <h1>Hi, I am <span>Divyansh</span> <span>Kumawat<span> </h1>
+                <h3>From Rajasthan</h3>
+                <h2>And I'm <span style="color:#a900a1 ;" class="multitext"></span></h2>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- about section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img id="abtimg" src="photo_2024-01-26_17-27-54.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 style="text-align: center;">About Me</h1>
+                    <p>Hey, check out the basic details about me </p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Website Designing </span><br>UI/UX Deisgner</li>
+                            <li><span>Backend Developer </span><br>Coder</li>
+                            <li><span>Ethical hacker</span><br>Cyber Security expert</li>
+                            <li><span>Video Editor</span><br>python/C/C++/JAVA</li>
+                            <li><span>Linux + Window User</span><br>Composer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Built an App "V MEET" interface</span><br>for my college</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Studied in </span><br>ST. XAVIERS SCHOOL,JAIPUR</li>
+                            <li><span>Pass 10th by 89% </span><br>Pass 12th By 90%</li>
+                            <li><span>Cracked JEE exam with 95 percentile</span><br>Rank:45000</li>
+                            <li><span>Cracked VITEE with 3000 rank</span><br>Got Category 2 in VIT Vellore</li>
+                            <li><span>Doing BTech in </span><br>Computer Science and Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i  class ="fa-solid fa-code "></i>
+                    <h2>Web Developer</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quidem aperiam aut totam
+                        magnam? Magni sed fugit reiciendis cumque blanditiis sint dolorum autem architecto vel, mollitia
+                        tempore cum ipsam a?</p>
+                    <a href="">Learn More</a>
+
+                </div>
+                <div>
+                    <i  class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Designer</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quidem aperiam aut totam
+                        magnam? Magni sed fugit reiciendis cumque blanditiis sint dolorum autem architecto vel, mollitia
+                        tempore cum ipsam a?</p>
+                    <a href="">Learn More</a>
+
+                </div>
+                <div>
+                    <i  class="fa-solid fa-video "></i>
+                    <h2>Video Editor</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quidem aperiam aut totam
+                        magnam? Magni sed fugit reiciendis cumque blanditiis sint dolorum autem architecto vel, mollitia
+                        tempore cum ipsam a?</p>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------My work------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title" style="color: white;">MY WORK</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="video edit.jpg" alt="">
+                    <div class="layer">
+                    <h1>Video Editing</h1>
+                    <p>Here you can find the demo of my video editing.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="game.jpg" alt="">
+                    <div class="layer">
+                    <h1>Games and others</h1>
+                    <p>Here you can find the games and various stuff like currency converter developed by me.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="unnamed.png" alt="">
+                    <div class="layer">
+                    <h1>Clone projects</h1>
+                    <p>Here you can find the colone projects on which I worked on .</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------conatact----- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="continfoclr">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> divyanshmcp@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> 9024858973</p>
+                    <div class="social-icons">
+                        <a target="_blank"  href="https://x.com/DivyanshMcp?s=09"><i class="fa-brands fa-twitter"></i></a>
+                        <a target="_blank"  href="https://www.linkedin.com/in/divyansh-kumawat-ab313a253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/divyansh_dk?igsh=ZXdkMGExcWh2bjVi"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email"  placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="sumbit" class="btn btn2"><b>Sumbit</b></button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typingeffect = new Typed(".multitext", {
+        strings: ["CODER", "WEB DEVELOPER", "UI/UX DESIGNER", "ETHICAL HACKER"],
+        loop:  true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1500
+
+    })
+</script>
+<script src="protfolio.js"></script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz-Ivp9-fEc0qL8w4BxYwgYrJ-UDkGSsYZ3gSBqKdwyLIJE99fVgLvwrs41LNTBgl0Tqw/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</html>
