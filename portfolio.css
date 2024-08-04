@@ -353,6 +353,9 @@ transform: 0.5s;
     display: inline-block;
     background: #a900a1;
 }
+.btn.btn3{
+    width: 200px;
+}
 
 .contact-right form{
     width: 100%;
